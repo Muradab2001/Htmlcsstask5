@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+#Header{
+    padding: 20px 4rem;
+    overflow: auto;
+    background-color: rgba(51, 51, 51, 0.597);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+
+#Header .left {
+    width: 20%;
+    float: left;
+}
+
+#Header .right {
+    width: 80%;
+    float: right;
+    margin-top: 12px;
+    text-align: right;
+}
+
+#Header .right a{
+    color: #fff;
+    margin-left: 20px;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+
+#Meet{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 100vh;
+    padding-top: 15rem;
+    color: #fff;
+}
+
+#Meet h2{
+    font-size: 36px;
+}
+#Meet h1{
+    font-size: 72px;
+    margin-bottom: 40px;
+}
+
+#Meet a{
+    background-color: #ffc800;
+    padding: 20px 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.4s;
+    
+}
+
+#Meet a:hover{
+    background-color: #ac8804;
+}
+
+#Service{
+    padding: 5rem 4rem;
+    overflow: auto;
+}
+
+.service-text,.works-text{
+    text-align: center;
+}
+
+.service-text h3,.works-text h3{
+    font-size: 40px;
+    color: #212529;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+.service-text p,.works-text p{
+    color: #6c757d;
+    font-size: 1rem;
+    margin-top: 18px;
+    font-style: italic;
+    font-family: Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+
+}
+
+.service-box {
+    margin-top: 50px;
+}
+
+.service-box .box{
+    width: calc(100%/3);
+    float: left;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.service-box svg{
+    background-color: #ffc800;
+    height: 5rem;
+    color: #fff;
+    padding: 10px;
+}
+
+.service-box .box h3{
+    font-size: 24px;
+    color: #212529;
+    margin: 20px 0;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.service-box .box p{
+    font-size: 16px;
+    color: #6c757d;
+    font-family: Roboto Slab, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.service-box .box .icon{
+    background-color: #FFC800;
+    width: 28%;
+    padding: 2rem 2rem;
+    border-radius: 50%;
+    margin: auto;
+}
+.service-box .box .icon i{
+    font-size: 3rem;
+    color: white;
+}
+#Works{
+    background-color: #F8F9FA;
+    padding: 4rem;
+    overflow: auto;
+}
+
+.work-box .box{
+    width: 30%;
+    float: left;
+    margin: 0 20px;
+}
+
+.work-box .box:hover img{
+    filter: grayscale(1);
+}
+
+hr{
+    margin-top: 50px;
+    width: 20%;
+    background-color: red;
+    border: 1px solid red;
+}
+
+.work-box {
+    margin-top: 40px;
+}
+
+.work-box .box img{
+    width: 100%;
+    transition: .5s;
+}
+
+.work-box .box .bottom{
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 0;
+}
+#amazing{
+    background-color: #c4c6c870;
+    padding: 4rem;
+    overflow: auto;
+}
+#amazing .text{
+    text-align: center;
+}
+#amazing .text h2{
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+#amazing .text h3{
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+}
+#amazing{
+padding: 4rem;
+overflow: auto;
+}
+#amazing .bottom{
+text-align: center;
+margin-top: 2rem;
+}
+#amazing .bottom .box{
+    width: 31%;
+    float: left;
+    margin-left: 22px;
+    margin-bottom: 3rem;
+}
+#amazing .bottom .box img{
+  width: 70%;
+  border-radius: 50%;
+}
+#amazing .bottom h4{
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.bottom i{
+    font-size: 2rem;
+    margin-left: 12px;
+    margin-top: 1rem;
+}
+#contact{
+    background-color: #212529;
+    background-image: url(/photos/map-image.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 4rem;
+}
+#contact .contacttext{
+text-align: center;
+padding: 4rem 0;
+overflow: auto;
+}
+#contact .contacttext h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#contact .contacttext h3{
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #6c757d;
+
+}
+.inputdiv .left{
+    width: 40%;
+    margin-left: 6rem;
+}
+.inputdiv .left input{
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    padding: 1.25rem;
+    width: 100%;
+    margin: 1rem;
+    float: left;
+}
+.inputdiv .right .message{
+    width: 45%;
+    min-height: 15rem;
+    max-height: 18rem;
+    padding: 1.25rem;
+    resize: vertical;
+    border-radius: 5px;
+    margin: 1rem;
+}
+.inputdiv .contactbutton button{
+    color: #fff;
+    background-color: #ffc800;
+    border-color: #ffc800;
+    opacity: 0.65;
+    padding: 1.25rem 2.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.125rem;
+    transition: ease 0.6s;
+    cursor: pointer;
+}
+.inputdiv .contactbutton{
+    text-align: center;
+    margin-top: 3rem;
+}
+.inputdiv .contactbutton button:hover{
+    background-color: #ffc8009d;
+    border-color: #ffc800af;
+    opacity: 1;
+}
+#footer{
+    padding: 2rem 4rem;
+    overflow: auto;
+}
+#footer .left h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.1rem;
+  color: #6c757d;;
+}
+#footer .left{
+float: left;
+}
+#footer .right{
+    float: right;
+    }
+#footer .right i{
+  font-size: 2rem;
+  margin-left: 1rem;
+}
