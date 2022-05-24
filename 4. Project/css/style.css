@@ -207,8 +207,9 @@ margin-top: 2rem;
     margin-bottom: 3rem;
 }
 #amazing .bottom .box img{
-  width: 70%;
+  width: 50%;
   border-radius: 50%;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
 #amazing .bottom h4{
   font-weight: bold;
